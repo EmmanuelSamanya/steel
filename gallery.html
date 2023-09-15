@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+ <html >
+ <head>
+  <link href="bootstrap.css" type="text/css" rel="stylesheet"/> 
+ <title>different projects</title>
+ <style>
+body{
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(ivory/logo.png);
+		height: 90vh;
+		background-size: cover;
+		background-attachment:fixed;
+		color:white;
+		font-size:15px;
+		}
+		ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aaaaaa;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #0000aa;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+/* Custom CSS to set fixed dimensions for the images */
+.gallery-image {
+  width: 300px; /* Adjust the width as per your preference */
+  height: 200px; /* Adjust the height as per your preference */
+  object-fit: cover; /* Preserve the image's aspect ratio and cover the entire container */
+  border-radius: 5px; /* Optional: Add rounded corners to the images */
+}
+
+</style>
+ </head>
+ <body>
+ <ul>
+ <li><img src="ivory/logo.png" style="width:100px;height:100px;"></li><br></br>
+  <li><a  href="index.html">Home</a></li>
+  <li><a   href="About.html">About us</a></li>
+  <li><a  href="Services.html">Services</a></li>
+  <li><a  class="active" href="#images">Our Projects</a></li>
+  <li><a  href="contactus.html">Contact us</a></li>
+  <li><a  href="newspage.html">News</a></li>
+
+</ul>
+<marquee style="color:red";> <i>Ivory steel Contractors...... we make your dream come true.........</i></marquee>
+  <div class="container my-0">
+    <div class="row">
+      <div class="col-md-4">
+       <a href="#lightbox1" data-bs-toggle="modal">
+        <img src="ivory/000.jpg" alt="Image 000" class="img-fluid rounded gallery-image"> <!-- Add the "gallery-image" class -->
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/000.jpg" alt="Image 000" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="#lightbox2" data-bs-toggle="modal">
+        <img src="ivory/0.jpg" alt="Image 0" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox2">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/0.jpg" alt="Image 0" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="#lightbox3" data-bs-toggle="modal">
+        <img src="ivory/1.jpg" alt="Image 1" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox3">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/1.jpg" alt="Image 1" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4 no-gutters">
+      <div class="col-md-4 no-gutters">
+       <a href="#lightbox4" data-bs-toggle="modal">
+        <img src="ivory/2.jpg" alt="Image 2" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox4">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/2.jpg" alt="Image 2" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+       <a href="#lightbox5" data-bs-toggle="modal">
+        <img src="ivory/3.jpg" alt="Image 3" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox5">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/3.jpg" alt="Image 3" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+        <a href="#lightbox6" data-bs-toggle="modal">
+        <img src="ivory/4.jpg" alt="Image 4" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox6">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/4.jpg" alt="Image 4" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<div class="row mt-4 no-gutters">
+      <div class="col-md-4 no-gutters">
+      <a href="#lightbox7" data-bs-toggle="modal">
+        <img src="ivory/5.jpg" alt="Image 5" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox7">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/5.jpg" alt="Image 5" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+       <a href="#lightbox8" data-bs-toggle="modal">
+        <img src="ivory/6.jpg" alt="Image 6" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox8">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/6.jpg" alt="Image 6" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+        <a href="#lightbox9" data-bs-toggle="modal">
+        <img src="ivory/7.jpg" alt="Image 7" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox9">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/7.jpg" alt="Image 7" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<div class="row mt-4 no-gutters">
+      <div class="col-md-4 no-gutters">
+        <a href="#lightbox10" data-bs-toggle="modal">
+        <img src="ivory/8.jpg" alt="Image 8" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox10">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/8.jpg" alt="Image 8" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+	  <a href="#lightbox11" data-bs-toggle="modal">
+        <img src="ivory/9.jpg" alt="Image 9" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox11">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/9.jpg" alt="Image 9" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+        <a href="#lightbox12" data-bs-toggle="modal">
+        <img src="ivory/10.jpg" alt="Image 10" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox12">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/10.jpg" alt="Image 10" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <div class="row mt-4 no-gutters">
+      <div class="col-md-4 no-gutters">
+        <a href="#lightbox13" data-bs-toggle="modal">
+        <img src="ivory/11.jpg" alt="Image 11" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox13">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/11.jpg" alt="Image 11" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+	  <a href="#lightbox14" data-bs-toggle="modal">
+        <img src="ivory/12.jpg" alt="Image 12" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox14">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/12.jpg" alt="Image 12" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+        <a href="#lightbox15" data-bs-toggle="modal">
+        <img src="ivory/13.jpg" alt="Image 13" class="img-fluid rounded gallery-image">
+		</a>
+		<!-- Lightbox Modal -->
+        <div class="modal fade" id="lightbox15">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+			  <!-- Add the link URL to the "href" attribute of the anchor tag within the lightbox -->
+                <a href="contactus.html" target="_blank"> <!-- Replace "contact.html" with your contact page URL -->
+                <img src="ivory/13.jpg" alt="Image 13" class="img-fluid rounded gallery-image">
+				</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <script src="bootstrap.min.js"></script> <!-- Bootstrap JS -->
+</body>
+</html>
+
